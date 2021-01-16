@@ -7,7 +7,7 @@
 ├── README.md                 READMEファイル
 ├── Dockerfile                Dockerファイル
 ├── notebook                  ノートブック
-├── models                    
+└── models                    
     └── trained_model         学習済みのモデル（pickleファイル）
 ```
 
