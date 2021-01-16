@@ -8,7 +8,7 @@
 ├── Dockerfile                Dockerファイル
 ├── notebook                  ノートブック
 ├── models                    
-│   └── trained_model         学習済みのモデル（pickleファイル）
+    └── trained_model         学習済みのモデル（pickleファイル）
 ```
 
 ## 環境構築
