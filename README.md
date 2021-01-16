@@ -9,7 +9,6 @@
 ├── notebook                  ノートブック
 ├── models                    
 │   └── trained_model         学習済みのモデル（pickleファイル）
-└── work                      実行ファイル
 ```
 
 ## 環境構築
