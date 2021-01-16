@@ -6,16 +6,17 @@
 .
 ├── README.md                 READMEファイル
 ├── Dockerfile                Dockerファイル
+├── notebook                  jupyter notebook
 └── models                    
     └── trained_model         学習済みのモデル（pickleファイル）
 ```
 
 ## 環境構築
-### Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Regression_Models）
+Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Regression_Models）
 ```
 cd Desktop/Regression_Models
 ```
-### Dockerによる環境構築
+Dockerによる環境構築
 ```
 docker build .
 ```
