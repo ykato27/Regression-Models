@@ -6,7 +6,6 @@
 .
 ├── README.md                 READMEファイル
 ├── Dockerfile                Dockerファイル
-├── notebook                  ノートブック
 └── models                    
     └── trained_model         学習済みのモデル（pickleファイル）
 ```
@@ -29,7 +28,8 @@ workフォルダ内が対象フォルダにマウントされている
 
 ## jupyter notebook説明
 * Regression_Models.ipynb : 回帰モデル全般のnotebook
-* SHAP.ipynb : SHAPのnotebook（機械学習モデルを解釈するためのライブラリー）
+* SHAP.ipynb : SHAPのnotebook(機械学習モデルを解釈するためのライブラリー)
+* NGBoost.ipynb : XGBoostのnotebook(不確かさを扱える新しい勾配ブースティング)
 
 ## 動作環境
 マシンスペック（Mac)
