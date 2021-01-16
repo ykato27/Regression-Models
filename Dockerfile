@@ -13,7 +13,8 @@ RUN wget https://repo.continuum.io/archive/Anaconda3-2020.02-Linux-x86_64.sh && 
 	rm -f Anaconda3-2020.02-Linux-x86_64.sh
 ENV PATH /opt/anaconda3/bin:$PATH
 
-RUN pip install --upgrade pip
+RUN pip install --upgrade pip \
+	ngboost
 WORKDIR /
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root", "--LabApp.token=''"]
 
