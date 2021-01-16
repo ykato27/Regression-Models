@@ -6,12 +6,9 @@
 .
 ├── README.md                 READMEファイル
 ├── Dockerfile                Dockerファイル
-├── data                      データの格納場所
-│   ├── processed             前処理後データ
 ├── notebook                  ノートブック
-├── src                       ソースコード
-│   └── preprocess            前処理
-│   └── utils                 モデル共通
+├── models                    
+│   └── trained_model         学習済みのモデル（pickleファイル）
 └── work                      実行ファイル
 ```
 
@@ -30,3 +27,9 @@ docker run -p 8888:8888 -v ~/Desktop/Regression_Models/:/work --name Regression_
 ```
 ブラウザーを立ち上げてlocalhost:8888へアクセス
 workフォルダ内が対象フォルダにマウントされている
+
+## 動作環境
+マシンスペック（Mac)
+- MacBook Air (Retina, 13-inch, 2018)
+- 1.6 GHz デュアルコアIntel Core i5
+- 8 GB 2133 MHz LPDDR3
