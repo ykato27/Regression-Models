@@ -27,6 +27,10 @@ docker run -p 8888:8888 -v ~/Desktop/Regression_Models/:/work --name Regression_
 ブラウザーを立ち上げてlocalhost:8888へアクセス
 workフォルダ内が対象フォルダにマウントされている
 
+## jupyter notebook説明
+* Regression_Models.ipynb : 回帰モデル全般のnotebook
+* SHAP.ipynb : SHAPのnotebook（機械学習モデルを解釈するためのライブラリー）
+
 ## 動作環境
 マシンスペック（Mac)
 - MacBook Air (Retina, 13-inch, 2018)

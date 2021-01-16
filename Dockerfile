@@ -16,3 +16,5 @@ ENV PATH /opt/anaconda3/bin:$PATH
 RUN pip install --upgrade pip
 WORKDIR /
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root", "--LabApp.token=''"]
+
+RUN conda install -c conda-forge shap
