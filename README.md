@@ -6,6 +6,8 @@
 .
 ├── README.md                 READMEファイル
 ├── Dockerfile                Dockerファイル
+├── docker-compose.yml
+├── .dockerignore    
 ├── notebook                  jupyter notebook
 └── models                    
     └── trained_model         学習済みのモデル（pickleファイル）
@@ -16,14 +18,12 @@ Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Regress
 ```
 cd Desktop/Regression_Models
 ```
-Dockerによる環境構築
+
+Dockerによる環境構築（対象フォルダをマウント例：Desktop/Regression_Models）
 ```
-docker build .
+docker-compose up --build
 ```
-docker run実行（対象フォルダをマウントする／例：Desktop/Regression_Models）
-```
-docker run -p 8888:8888 -v ~/Desktop/Regression_Models/:/work --name Regression_Models <docker image>
-```
+
 ブラウザーを立ち上げてlocalhost:8888へアクセス
 workフォルダ内が対象フォルダにマウントされている
 
