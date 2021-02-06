@@ -5,27 +5,28 @@
 ```
 .
 ├── README.md                 READMEファイル
+├── .dockerignore    
 ├── Dockerfile                Dockerファイル
 ├── docker-compose.yml
-├── .dockerignore    
 ├── notebook                  jupyter notebook
 └── models                    
     └── trained_model         学習済みのモデル（pickleファイル）
 ```
 
 ## 環境構築
-Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Regression_Models）
+
+* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Regression_Models）
 ```
 cd Desktop/Regression_Models
 ```
 
-Dockerによる環境構築（対象フォルダをマウント例：Desktop/Regression_Models）
+* Dockerによる環境構築（フォルダをマウント：Desktop/Regression_Models）
 ```
 docker-compose up --build
 ```
 
-ブラウザーを立ち上げてlocalhost:8888へアクセス
-workフォルダ内が対象フォルダにマウントされている
+* ブラウザーを立ち上げてlocalhost:8888へアクセス
+* ローカルフォルダがマウントされている
 
 ## jupyter notebook説明
 * Regression_Models.ipynb : 回帰モデル全般のnotebook
