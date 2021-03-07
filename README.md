@@ -1,4 +1,4 @@
-# Regression_Models
+# Regression-Models
 * 回帰モデル全般のプログラム
 
 ## リポジトリ構成
