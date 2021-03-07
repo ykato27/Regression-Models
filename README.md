@@ -15,9 +15,9 @@
 
 ## 環境構築
 
-* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Regression_Models）
+* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Regression-Models）
 ```
-cd Desktop/Regression_Models
+cd Desktop/Regression-Models
 ```
 
 * Dockerによる環境構築（フォルダをマウント：Desktop/Regression_Models）
