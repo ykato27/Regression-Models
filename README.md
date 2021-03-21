@@ -31,6 +31,7 @@ docker-compose up --build
 ## jupyter notebook説明
 * Regression_Models.ipynb : 回帰モデル全般のnotebook
 * SHAP.ipynb : SHAPのnotebook(機械学習モデルを解釈するためのライブラリー)
+* LIME.ipynb : LIMEのnotebook(機械学習モデルを解釈するためのライブラリー)
 * NGBoost.ipynb : XGBoostのnotebook(不確かさを扱える新しい勾配ブースティング)
 
 ## 動作環境

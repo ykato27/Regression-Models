@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:20.04
 RUN apt-get update && apt-get install -y \
 	sudo \
 	wget \
@@ -16,4 +16,5 @@ ENV PATH /opt/anaconda3/bin:$PATH
 RUN pip install --upgrade pip \
 	ngboost
 
-RUN conda install -c conda-forge shap
+RUN conda install -c conda-forge shap \
+	lime
