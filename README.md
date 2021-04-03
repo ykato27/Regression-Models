@@ -22,7 +22,7 @@ cd Desktop/Regression-Models
 
 * Dockerによる環境構築（フォルダをマウント：Desktop/Regression_Models）
 ```
-docker-compose up
+docker-compose up --build
 ```
 
 * ブラウザーを立ち上げてlocalhost:8888へアクセス
