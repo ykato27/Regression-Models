@@ -29,10 +29,10 @@ docker-compose up --build
 * ローカルフォルダがマウントされている
 
 ## jupyter notebook説明
-* Regression_Models.ipynb : 回帰モデル全般のnotebook
-* SHAP.ipynb : SHAPのnotebook(機械学習モデルを解釈するためのライブラリー)
-* LIME.ipynb : LIMEのnotebook(機械学習モデルを解釈するためのライブラリー)
-* NGBoost.ipynb : XGBoostのnotebook(不確かさを扱える新しい勾配ブースティング)
+* [LIME.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/LIME.ipynb) : LIMEのnotebook(機械学習モデルを解釈するためのライブラリー)
+* [NGBoost.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/NGBoost.ipynb) : XGBoostのnotebook(不確かさを扱える新しい勾配ブースティング)
+* [Regression_Models.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/Regression_Models.ipynb) : 回帰モデル全般のnotebook
+* [SHAP.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/SHAP.ipynb) : SHAPのnotebook(機械学習モデルを解釈するためのライブラリー)
 
 ## 動作環境
 マシンスペック（Mac)
