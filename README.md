@@ -32,7 +32,7 @@ docker-compose up --build
 
 ## jupyter notebook説明
 * [LIME.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/LIME.ipynb) : LIMEのnotebook(機械学習モデルを解釈するためのライブラリー)
-* [NGBoost.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/NGBoost.ipynb) : XGBoostのnotebook(不確かさを扱える新しい勾配ブースティング)
+* [NGBoost.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/NGBoost.ipynb) : NGBoostのnotebook(不確かさを扱える新しい勾配ブースティング)
 * [Regression_Models.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/Regression_Models.ipynb) : 回帰モデル全般のnotebook
 * [SHAP.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/SHAP.ipynb) : SHAPのnotebook(機械学習モデルを解釈するためのライブラリー)
 
