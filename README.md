@@ -9,6 +9,8 @@
 ├── Dockerfile                Dockerファイル
 ├── docker-compose.yml
 ├── notebook                  jupyter notebook
+├── example                   example
+├── src                       ソースコード
 └── models                    
     └── trained_model         学習済みのモデル（pickleファイル）
 ```
