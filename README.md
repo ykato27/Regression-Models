@@ -31,10 +31,16 @@ docker-compose up --build
 * ローカルフォルダがマウントされている
 
 ## jupyter notebook説明
+* [CatBoost-Optuna.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/CatBoost-Optuna.ipynb) : CatBoost-Optunaのnotebook
+* [CatBoost.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/CatBoost.ipynb) : CatBoostのnotebook
 * [LIME.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/LIME.ipynb) : LIMEのnotebook(機械学習モデルを解釈するためのライブラリー)
+* [LightGBM-Optuna.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/LightGBM-Optuna.ipynb) : LightGBM-Optunaのnotebook
+* [LightGBM.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/LightGBM.ipynb) : LightGBMのnotebook
 * [NGBoost.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/NGBoost.ipynb) : NGBoostのnotebook(不確かさを扱える新しい勾配ブースティング)
 * [Regression_Models.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/Regression_Models.ipynb) : 回帰モデル全般のnotebook
 * [SHAP.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/SHAP.ipynb) : SHAPのnotebook(機械学習モデルを解釈するためのライブラリー)
+* [XGBoost-Optuna.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/XGBoost-Optuna.ipynb) : XGBoost-Optunaのnotebook
+* [XGBoost.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/XGBoost.ipynb) : XGBoostのnotebook
 
 ## 動作環境
 マシンスペック（Mac)
