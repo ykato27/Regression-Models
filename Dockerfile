@@ -15,7 +15,11 @@ RUN wget https://repo.continuum.io/archive/Anaconda3-2020.02-Linux-x86_64.sh && 
 ENV PATH /opt/anaconda3/bin:$PATH
 
 RUN pip install --upgrade pip \
-	ngboost
+	ngboost \
+	optuna
 
 RUN conda install -c conda-forge shap \
-	lime
+	lime \
+	lightgbm \
+	xgboost \
+	catboost
