@@ -8,29 +8,24 @@
 ├── README.md
 ├── docker-compose.yml
 ├── example
-│   └── eval_model_example.ipynb
+│             └── eval_model_example.ipynb
 ├── interpretML.ipynb
+├── models
+│             └── trained_model
 ├── notebook
-│   ├── CatBoost-Optuna.ipynb
-│   ├── CatBoost.ipynb
-│   ├── LIME.ipynb
-│   ├── LightGBM-Optuna.ipynb
-│   ├── LightGBM.ipynb
-│   ├── NGBoost.ipynb
-│   ├── Regression_Models.ipynb
-│   ├── SHAP.ipynb
-│   ├── XGBoost-Optuna.ipynb
-│   ├── XGBoost.ipynb
-│   └── models
-│       └── trained_model
-│           ├── AdaBoost.pickle
-│           ├── ElasticNet.pickle
-│           ├── GBDT.pickle
-│           ├── Lasso.pickle
-│           ├── LinearRegression.pickle
-│           ├── RandomForest.pickle
-│           ├── Ridge.pickle
-│           └── SVR.pickle
+│             ├── CatBoost-Optuna.ipynb
+│             ├── CatBoost.ipynb
+│             ├── LIME.ipynb
+│             ├── LightGBM-Optuna.ipynb
+│             ├── LightGBM.ipynb
+│             ├── NGBoost.ipynb
+│             ├── Regression_Models.ipynb
+│             ├── Regression_Models_Modeler.ipynb
+│             ├── SHAP.ipynb
+│             ├── XGBoost-Optuna.ipynb
+│             ├── XGBoost.ipynb
+│             └── models
+│                 └── trained_model
 └── src
     ├── __init__.py
     └── evaluation
