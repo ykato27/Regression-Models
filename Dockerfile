@@ -16,7 +16,8 @@ ENV PATH /opt/anaconda3/bin:$PATH
 
 RUN pip install --upgrade pip \
 	ngboost \
-	optuna
+	optuna \
+    nb_black
 
 RUN conda install -c conda-forge shap \
 	lime \
