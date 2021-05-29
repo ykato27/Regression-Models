@@ -64,6 +64,10 @@ docker-compose up --build
 * [eval_model_example.ipynb](https://github.com/ykato27/Regression-Models/blob/main/example/eval_model_example.ipynb) : eval_model.pyのexample
 
 
+## モジュールの説明（src/）
+* [eval_model.py](https://github.com/ykato27/Regression-Models/blob/main/src/evaluation/eval_model.py) : 評価指標を計算するモジュール
+
+
 ## 動作環境
 マシンスペック（Mac)
 - MacBook Air (Retina, 13-inch, 2018)
