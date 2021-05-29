@@ -40,13 +40,14 @@
 cd Desktop/Regression-Models
 ```
 
-* Dockerによる環境構築（フォルダをマウント：Desktop/Regression_Models）
+* Dockerによる環境構築（ローカルフォルダをマウント：Desktop/Regression-Models）
 ```
 docker-compose up --build
 ```
 
 * ブラウザーを立ち上げてlocalhost:8888へアクセス
 * ローカルフォルダがマウントされている
+
 
 ## jupyter notebook説明
 * [CatBoost-Optuna.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/CatBoost-Optuna.ipynb) : CatBoost-Optunaのnotebook
@@ -60,6 +61,8 @@ docker-compose up --build
 * [SHAP.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/SHAP.ipynb) : SHAPのnotebook(機械学習モデルを解釈するためのライブラリー)
 * [XGBoost-Optuna.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/XGBoost-Optuna.ipynb) : XGBoost-Optunaのnotebook
 * [XGBoost.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/XGBoost.ipynb) : XGBoostのnotebook
+* [eval_model_example.ipynb](https://github.com/ykato27/Regression-Models/blob/main/example/eval_model_example.ipynb) : eval_model.pyのexample
+
 
 ## 動作環境
 マシンスペック（Mac)
