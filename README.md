@@ -8,29 +8,33 @@
 ├── README.md
 ├── docker-compose.yml
 ├── example
-│             └── eval_model_example.ipynb
-├── interpretML.ipynb
+│   ├── eval_model_example.ipynb
+│   └── modeler.ipynb
 ├── models
-│             └── trained_model
+│   └── trained_model
 ├── notebook
-│             ├── CatBoost-Optuna.ipynb
-│             ├── CatBoost.ipynb
-│             ├── LIME.ipynb
-│             ├── LightGBM-Optuna.ipynb
-│             ├── LightGBM.ipynb
-│             ├── NGBoost.ipynb
-│             ├── Regression_Models.ipynb
-│             ├── Regression_Models_Modeler.ipynb
-│             ├── SHAP.ipynb
-│             ├── XGBoost-Optuna.ipynb
-│             ├── XGBoost.ipynb
-│             └── models
-│                 └── trained_model
+│   ├── CatBoost-Optuna.ipynb
+│   ├── CatBoost.ipynb
+│   ├── LIME.ipynb
+│   ├── LightGBM-Optuna.ipynb
+│   ├── LightGBM.ipynb
+│   ├── NGBoost.ipynb
+│   ├── Regression_Models.ipynb
+│   ├── Regression_Models_Modeler.ipynb
+│   ├── SHAP.ipynb
+│   ├── XGBoost-Optuna.ipynb
+│   ├── XGBoost.ipynb
+│   ├── interpretML-GoogleColab.ipynb
+│   └── models
+│       └── trained_model
 └── src
     ├── __init__.py
-    └── evaluation
+    ├── evaluation
+    │   ├── __init__.py
+    │   └── eval_model.py
+    └── model
         ├── __init__.py
-        └── eval_model.py
+        └── modeler.py
 ```
 
 ## 環境構築
