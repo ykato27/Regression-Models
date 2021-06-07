@@ -13,7 +13,8 @@ ENV PATH /opt/anaconda3/bin:$PATH
 RUN pip install --upgrade pip \
 	ngboost \
 	optuna \
-	nb_black
+	nb_black \
+	bayesian-optimization
 
 RUN conda install -c conda-forge shap \
 	lime \
