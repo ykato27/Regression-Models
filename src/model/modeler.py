@@ -1,10 +1,10 @@
 """複数の回帰モデルを学習・推論するクラス"""
 
 import os
-from os.path import join
-from os import listdir
 import pickle
 import shutil
+from os import listdir
+from os.path import join
 
 
 class Modeler:
