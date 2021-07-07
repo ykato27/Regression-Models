@@ -11,13 +11,10 @@ RUN wget https://repo.continuum.io/archive/Anaconda3-2021.04-Linux-x86_64.sh && 
 ENV PATH /opt/anaconda3/bin:$PATH
 
 RUN pip install --upgrade pip \
-	ngboost \
 	optuna \
 	nb_black \
 	bayesian-optimization
 
-RUN conda install -c conda-forge shap \
-	lime \
-	lightgbm \
+RUN conda install -c conda-forge lightgbm \
 	xgboost \
 	catboost

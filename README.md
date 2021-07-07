@@ -4,37 +4,74 @@
 ## リポジトリ構成
 ```
 .
-├── Dockerfile
 ├── README.md
+├── data
+├── docker
+│   ├── Dockerfile
+│   ├── LIME
+│   │   └── Dockerfile
+│   ├── NGBoost
+│   │   └── Dockerfile
+│   └── SHAP
+│       └── Dockerfile
+├── docker-compose-lime.yml
+├── docker-compose-ngboost.yml
+├── docker-compose-shap.yml
 ├── docker-compose.yml
+├── docs
 ├── example
 │   ├── eval_model_example.ipynb
 │   └── modeler.ipynb
 ├── models
 │   └── trained_model
-├── notebook
+│       ├── ElasticNet.pickle
+│       ├── GradientBoostingRegressor.pickle
+│       ├── Lasso.pickle
+│       ├── RandomForestRegressor.pickle
+│       ├── Ridge.pickle
+│       └── SVR.pickle
+├── notebooks
+│   ├── CatBoost-Optuna-example2.ipynb
 │   ├── CatBoost-Optuna.ipynb
 │   ├── CatBoost.ipynb
-│   ├── LIME.ipynb
+│   ├── Google-Colab
+│   │   └── interpretML-GoogleColab.ipynb
+│   ├── LIME
+│   │   └── LIME.ipynb
+│   ├── LightGBM-Optuna-example2.ipynb
 │   ├── LightGBM-Optuna.ipynb
 │   ├── LightGBM.ipynb
-│   ├── NGBoost.ipynb
+│   ├── NGBoost
+│   │   └── NGBoost.ipynb
 │   ├── Regression_Models.ipynb
 │   ├── Regression_Models_Modeler.ipynb
-│   ├── SHAP.ipynb
+│   ├── SHAP
+│   │   └── SHAP.ipynb
+│   ├── XGBoost-Bayesian-Optimization.ipynb
+│   ├── XGBoost-Optuna-example2.ipynb
 │   ├── XGBoost-Optuna.ipynb
-│   ├── XGBoost.ipynb
-│   ├── interpretML-GoogleColab.ipynb
-│   └── models
-│       └── trained_model
-└── src
-    ├── __init__.py
-    ├── evaluation
-    │   ├── __init__.py
-    │   └── eval_model.py
-    └── model
-        ├── __init__.py
-        └── modeler.py
+│   └── XGBoost.ipynb
+├── pyproject.toml
+├── setup.cfg
+├── src
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   └── __init__.cpython-38.pyc
+│   ├── evaluation
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-38.pyc
+│   │   │   └── eval_model.cpython-38.pyc
+│   │   └── eval_model.py
+│   └── model
+│       ├── __init__.py
+│       ├── __pycache__
+│       │   ├── __init__.cpython-38.pyc
+│       │   └── modeler.cpython-38.pyc
+│       └── modeler.py
+├── tests
+│   └── __init__.py
+└── work
 ```
 
 ## 環境構築
@@ -46,7 +83,7 @@ cd Desktop/Regression-Models
 
 * Dockerによる環境構築（ローカルフォルダをマウント：Desktop/Regression-Models）
 ```
-docker-compose up --build
+docker-compose -f docker-compose-{*構築対象}.yml up --build
 ```
 
 * ブラウザーを立ち上げてlocalhost:8888へアクセス
