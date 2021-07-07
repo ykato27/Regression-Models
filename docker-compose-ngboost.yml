@@ -1,11 +1,11 @@
 version: "3"
 services:
-  Regression:
-    container_name: regression
-    image: regression:1.0
+  ngboost:
+    container_name: ngboost
+    image: ngboost:1.0
     build:
       context: ./docker
-      dockerfile: ./Dockerfile
+      dockerfile: ./NGBoost/Dockerfile
     volumes:
       - ./:/work
     working_dir: /work

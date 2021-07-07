@@ -1,11 +1,11 @@
 version: "3"
 services:
-  Regression:
-    container_name: regression
-    image: regression:1.0
+  shap:
+    container_name: shap
+    image: shap:1.0
     build:
       context: ./docker
-      dockerfile: ./Dockerfile
+      dockerfile: ./SHAP/Dockerfile
     volumes:
       - ./:/work
     working_dir: /work
