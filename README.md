@@ -18,7 +18,6 @@
 ├── docker-compose-ngboost.yml
 ├── docker-compose-shap.yml
 ├── docker-compose.yml
-├── docs
 ├── example
 │   ├── eval_model_example.ipynb
 │   └── modeler.ipynb
@@ -31,43 +30,48 @@
 │       ├── Ridge.pickle
 │       └── SVR.pickle
 ├── notebooks
-│   ├── CatBoost-Optuna-example2.ipynb
-│   ├── CatBoost-Optuna.ipynb
 │   ├── CatBoost.ipynb
 │   ├── Google-Colab
 │   │   └── interpretML-GoogleColab.ipynb
 │   ├── LIME
 │   │   └── LIME.ipynb
-│   ├── LightGBM-Optuna-example2.ipynb
-│   ├── LightGBM-Optuna.ipynb
 │   ├── LightGBM.ipynb
 │   ├── NGBoost
 │   │   └── NGBoost.ipynb
+│   ├── Optuna
+│   │   ├── CMA-ESSampler
+│   │   │   ├── train-test
+│   │   │   │   ├── CatBoost-Optuna.ipynb
+│   │   │   │   ├── LightGBM-Optuna.ipynb
+│   │   │   │   ├── XGBoost-Optuna.ipynb
+│   │   │   └── train-valid-test
+│   │   │       ├── CatBoost-Optuna-example.ipynb
+│   │   │       ├── LightGBM-Optuna-example.ipynb
+│   │   │       ├── XGBoost-Optuna-example.ipynb
+│   │   └── TPESampler
+│   │       ├── train-test
+│   │       │   ├── CatBoost-Optuna.ipynb
+│   │       │   ├── LightGBM-Optuna.ipynb
+│   │       │   ├── XGBoost-Optuna.ipynb
+│   │       └── train-valid-test
+│   │           ├── CatBoost-Optuna-example.ipynb
+│   │           ├── LightGBM-Optuna-example.ipynb
+│   │           ├── XGBoost-Optuna-example.ipynb
 │   ├── Regression_Models.ipynb
 │   ├── Regression_Models_Modeler.ipynb
 │   ├── SHAP
 │   │   └── SHAP.ipynb
 │   ├── XGBoost-Bayesian-Optimization.ipynb
-│   ├── XGBoost-Optuna-example2.ipynb
-│   ├── XGBoost-Optuna.ipynb
 │   └── XGBoost.ipynb
 ├── pyproject.toml
 ├── setup.cfg
 ├── src
 │   ├── __init__.py
-│   ├── __pycache__
-│   │   └── __init__.cpython-38.pyc
 │   ├── evaluation
 │   │   ├── __init__.py
-│   │   ├── __pycache__
-│   │   │   ├── __init__.cpython-38.pyc
-│   │   │   └── eval_model.cpython-38.pyc
 │   │   └── eval_model.py
 │   └── model
 │       ├── __init__.py
-│       ├── __pycache__
-│       │   ├── __init__.cpython-38.pyc
-│       │   └── modeler.cpython-38.pyc
 │       └── modeler.py
 ├── tests
 │   └── __init__.py
