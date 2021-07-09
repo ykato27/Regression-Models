@@ -12,7 +12,7 @@ ENV PATH /opt/anaconda3/bin:$PATH
 
 RUN pip install --upgrade pip \
 	optuna \
-	mb_black
+	nb_black
 
 RUN conda install -c conda-forge lightgbm \
 	xgboost \

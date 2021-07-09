@@ -1,8 +1,8 @@
 version: "3"
 services:
-  Ax:
-    container_name: Ax
-    image: Ax:1.0
+  ax:
+    container_name: ax
+    image: ax:1.0
     build:
       context: ./docker
       dockerfile: ./Ax/Dockerfile
