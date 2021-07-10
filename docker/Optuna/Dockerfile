@@ -16,4 +16,5 @@ RUN pip install --upgrade pip \
 
 RUN conda install -c conda-forge lightgbm \
 	xgboost \
-	catboost
+	catboost \
+	plotly
