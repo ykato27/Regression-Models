@@ -1,4 +1,7 @@
+.venv/
+__pycache__/
+data
+notebooks
 example
 models
-notebooks
 src
