@@ -93,22 +93,6 @@ docker-compose -f docker-compose-{*構築対象}.yml up --build
 * ブラウザーを立ち上げてlocalhost:8888へアクセス
 * ローカルフォルダがマウントされている
 
-
-## jupyter notebook説明
-* [CatBoost-Optuna.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/CatBoost-Optuna.ipynb) : CatBoost-Optunaのnotebook
-* [CatBoost.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/CatBoost.ipynb) : CatBoostのnotebook
-* [LIME.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/LIME.ipynb) : LIMEのnotebook(機械学習モデルを解釈するためのライブラリー)
-* [LightGBM-Optuna.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/LightGBM-Optuna.ipynb) : LightGBM-Optunaのnotebook
-* [LightGBM.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/LightGBM.ipynb) : LightGBMのnotebook
-* [NGBoost.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/NGBoost.ipynb) : NGBoostのnotebook(不確かさを扱える新しい勾配ブースティング)
-* [Regression_Models.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/Regression_Models.ipynb) : 回帰モデル全般のnotebook
-* [Regression_Models_Modeler.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/Regression_Models_Modeler.ipynb) : 回帰モデル全般のnotebook
-* [SHAP.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/SHAP.ipynb) : SHAPのnotebook(機械学習モデルを解釈するためのライブラリー)
-* [XGBoost-Optuna.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/XGBoost-Optuna.ipynb) : XGBoost-Optunaのnotebook
-* [XGBoost.ipynb](https://github.com/ykato27/Regression-Models/blob/main/notebook/XGBoost.ipynb) : XGBoostのnotebook
-* [eval_model_example.ipynb](https://github.com/ykato27/Regression-Models/blob/main/example/eval_model_example.ipynb) : eval_model.pyのexample
-
-
 ## モジュールの説明（src/）
 * [eval_model.py](https://github.com/ykato27/Regression-Models/blob/main/src/evaluation/eval_model.py) : 評価指標を計算するモジュール
 
