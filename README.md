@@ -96,6 +96,9 @@ docker-compose -f docker-compose-{*構築対象}.yml up --build
 ## モジュールの説明（src/）
 * [eval_model.py](https://github.com/ykato27/Regression-Models/blob/main/src/evaluation/eval_model.py) : 評価指標を計算するモジュール
 
+## Display notebooks
+
+- [View Jupyter notebooks in nbviewer](https://nbviewer.jupyter.org/github/ykato27/Regression-Models/tree/main/notebooks/)
 
 ## 動作環境
 マシンスペック（Mac)
