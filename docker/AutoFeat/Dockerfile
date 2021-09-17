@@ -11,9 +11,8 @@ RUN wget https://repo.continuum.io/archive/Anaconda3-2021.04-Linux-x86_64.sh && 
 ENV PATH /opt/anaconda3/bin:$PATH
 
 RUN pip install --upgrade pip \
-	ax-platform \
+	autofeat \
+	optuna \
 	nb_black
 
-RUN conda install -c conda-forge lightgbm \
-	xgboost \
-	catboost
+RUN conda install -c conda-forge xgboost
