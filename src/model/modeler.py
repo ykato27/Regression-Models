@@ -35,9 +35,10 @@ class Modeler:
         os.makedirs(path_train_target, exist_ok=True)
 
         for model in self.models:
-            model_name = model
             train_model = model()
-            train_model.set_params(**param_dict[train_model.__class__.__name__])
+            train_model.set_params(
+                **param_dict[train_model.__class__.__name__]
+            )
             train_model.fit(train, target)
 
             filename = f"{train_model.__class__.__name__}.pickle"
@@ -60,12 +61,16 @@ class Modeler:
         """
         path = join(output_dir_path, f"trained_model/")
         trained_files = [
-            filename for filename in listdir(path) if not filename.startswith(".")
+            filename
+            for filename in listdir(path)
+            if not filename.startswith(".")
         ]
         pred_dict = {}
 
         for trained_file in trained_files:
-            with open(f"{output_dir_path}/trained_model/{trained_file}", "rb") as f:
+            with open(
+                f"{output_dir_path}/trained_model/{trained_file}", "rb"
+            ) as f:
                 model = pickle.load(f)
             pred_dict[trained_file[:-7]] = model.predict(test)
 

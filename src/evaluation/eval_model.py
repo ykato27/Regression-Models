@@ -77,7 +77,9 @@ def eval_metric(true, pred):
 
     # RMSLEの計算対象外のサンプルが一つも残らない場合はNaNを返す
     if rmsle_sample.sum() != 0:
-        rmsle = np.sqrt(mean_squared_log_error(true[rmsle_sample], pred[rmsle_sample]))
+        rmsle = np.sqrt(
+            mean_squared_log_error(true[rmsle_sample], pred[rmsle_sample])
+        )
     else:
         rmsle = np.nan
 
