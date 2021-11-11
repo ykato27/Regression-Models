@@ -13,4 +13,5 @@ ENV PATH /opt/anaconda3/bin:$PATH
 RUN pip install --upgrade pip \
 	nb_black
 
-RUN conda install -c conda-forge shap
+RUN conda install -c conda-forge shap \
+	xgboost
