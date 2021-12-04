@@ -2,7 +2,6 @@
 
 import os
 import pickle
-import shutil
 from os import listdir
 from os.path import join
 
@@ -20,7 +19,9 @@ class Modeler:
         """
         self.models[model] = model()
 
-    def train(self, output_dir_path, train, target, param_dict):
+    def train(
+        self, output_dir_path, train, target, param_dict,
+    ):
         """回帰モデルを学習する
 
         Args:
@@ -31,7 +32,6 @@ class Modeler:
         """
 
         path_train_target = join(output_dir_path, f"trained_model/")
-        # trained_modelディレクト作成
         os.makedirs(path_train_target, exist_ok=True)
 
         for model in self.models:
